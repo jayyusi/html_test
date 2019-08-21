@@ -3,11 +3,22 @@ body::after{
 	clear:both;
 	display:table;
 }
-td, dt, dd{
+td, dt, dd, p{
 	color:gray;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    //color: #000000;
+    //font-weight: normal;
+    //text-decoration: none;
+    //font-style: normal;
+    //font-variant: normal;
+    //text-transform: none;
 }
-p, .img_caption{
+.img_caption{
 	color:gray;
+	letter-spacing: 1px;
 }
 aside{
 	width:20%;
