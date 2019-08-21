@@ -1,0 +1,45 @@
+body::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+td, dt, dd{
+	color:gray;
+}
+p, .img_caption{
+	color:gray;
+}
+aside{
+	width:20%;
+	float:left;
+	position:relative;
+	padding:10px 10px 10px 10px;
+}
+article{
+	width:60%;
+	float:left;
+	padding:10px 10px 10px 10px;
+}
+.social_media_icons{
+	width:70%;
+	text-align:center;
+}
+h3{
+	width:70%;
+	text-align:center;
+}
+img{
+	width:70%;
+	height:70%;
+	text-align:center;
+}
+.img_caption{
+	width:70%;
+	text-align:left;
+}
+table{
+	text-align:center;
+}
+td{
+	padding:5px;
+}
